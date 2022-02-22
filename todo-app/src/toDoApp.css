@@ -1,0 +1,51 @@
+.Main {
+    background-color: #FFF;
+    padding: 15px;
+    border: solid #3b2e3b;
+    align-content: center;
+}
+
+.Main .header input {
+    padding: 4%;
+    font-size: 100%;
+    border: 2px solid #463546;
+    width: 65%;
+}
+.Main .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #564256;
+    color: #FFF;
+    border: 2px solid #463546;
+}
+.Main .header button:hover {
+    background-color: #3b2e3b;
+    border: 2px solid #3b2e3b;
+    cursor: pointer;
+}
+.Main .List {
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+}
+.Main .List li {
+    color: #333;
+    background-color: #BFBCCB;
+    padding: 17px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+
+.Main .List li:hover {
+    background-color: #9b2d29;
+    color: #FFF;
+    cursor: pointer;
+}
+
+ul.List {
+  padding: 0;
+}
